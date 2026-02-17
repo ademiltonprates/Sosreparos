@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SOS Reparos | Ademilton Prates</title>
+<style>
+body{
+margin:0;
+font-family:Arial, sans-serif;
+background:#f4f6f8;
+color:#333;
+}
+header{
+background:#0a2540;
+color:white;
+padding:40px 20px;
+text-align:center;
+}
+header h1{
+margin:0;
+font-size:32px;
+}
+header p{
+font-size:18px;
+margin-top:10px;
+}
+.hero{
+text-align:center;
+padding:40px 20px;
+background:white;
+}
+.hero img{
+width:100%;
+max-width:600px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+.btn{
+display:inline-block;
+margin-top:20px;
+padding:15px 30px;
+background:#25D366;
+color:white;
+text-decoration:none;
+border-radius:8px;
+font-size:18px;
+font-weight:bold;
+transition:0.3s;
+}
+.btn:hover{
+background:#1ebe57;
+}
+.services{
+padding:40px 20px;
+text-align:center;
+}
+.services h2{
+margin-bottom:30px;
+font-size:28px;
+color:#0a2540;
+}
+.service-box{
+background:white;
+margin:10px auto;
+padding:20px;
+max-width:500px;
+border-radius:10px;
+box-shadow:0 0 15px rgba(0,0,0,0.1);
+font-size:18px;
+display:flex;
+align-items:center;
+gap:10px;
+}
+footer{
+background:#0a2540;
+color:white;
+text-align:center;
+padding:30px 20px;
+margin-top:40px;
+}
+footer p{
+margin:5px 0;
+}
+/* Botão flutuante WhatsApp */
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px;
+border-radius:50%;
+font-size:28px;
+text-decoration:none;
+box-shadow:0 0 15px rgba(0,0,0,0.3);
+transition:0.3s;
+}
+.whatsapp:hover{
+background:#1ebe57;
+}
+.contact-buttons{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:15px;
+margin-top:20px;
+}
+.contact-buttons a{
+flex:1 1 200px;
+text-align:center;
+padding:15px;
+border-radius:8px;
+text-decoration:none;
+color:white;
+font-weight:bold;
+font-size:16px;
+transition:0.3s;
+}
+.contact-phone{background:#007bff;}
+.contact-phone:hover{background:#0064cc;}
+.contact-whatsapp{background:#25D366;}
+.contact-whatsapp:hover{background:#1ebe57;}
+.contact-email{background:#f58020;}
+.contact-email:hover{background:#d96b00;}
+</style>
+</head>
+<body>
+
+<header>
+<h1>SOS Reparos</h1>
+<p>Ademilton Prates | Serviços Profissionais de Reparos</p>
+</header>
+
+<section class="hero">
+<img src="A_website_for_&quot;SOS_Reparos&quot;_features_Ademilton_Pra.png" alt="Profissional homem trabalhando">
+<br>
+<a class="btn" href="https://wa.me/5511999999999" target="_blank">
+Solicitar Orçamento no WhatsApp
+</a>
+</section>
+
+<section class="services">
+<h2>Nossos Serviços</h2>
+
+<div class="service-box">🔧 Reparos em Geral</div>
+<div class="service-box">💡 Instalações Elétricas</div>
+<div class="service-box">🚿 Hidráulica e Encanamento</div>
+<div class="service-box">🪛 Montagem e Manutenção</div>
+<div class="service-box">🏠 Serviços Residenciais</div>
+<div class="service-box">🎨 Pintura e Acabamento</div>
+
+</section>
+
+<section class="contact-buttons">
+<a class="contact-phone" href="tel:+5511999999999">📞 Ligar Agora</a>
+<a class="contact-whatsapp" href="https://wa.me/5511999999999" target="_blank">💬 WhatsApp</a>
+<a class="contact-email" href="mailto:contato@sosreparos.com">✉️ Enviar E-mail</a>
+</section>
+
+<footer>
+<p>© 2026 SOS Reparos - Ademilton Prates</p>
+<p>Atendimento rápido e profissional</p>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/5511999999999" target="_blank">💬</a>
+
+</body>
+</html>
