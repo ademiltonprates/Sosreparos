@@ -3,130 +3,132 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SOS Reparos | Ademilton Prates</title>
+<title>SOS Reparos</title>
 
 <style>
 
 body{
-margin:0;
-font-family:Arial, sans-serif;
-background:#f1f4f8;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background:#f4f6f8;
 }
 
-header{
-background:linear-gradient(135deg,#0d3557,#1c5d99);
-color:white;
-padding:50px 20px;
-text-align:center;
+/* TOPO */
+.header{
+    background: linear-gradient(135deg,#0d3b66,#1e5fa8);
+    color:white;
+    text-align:center;
+    padding:40px 20px;
 }
 
-header h1{
-margin:0;
-font-size:34px;
+.header h1{
+    margin:0;
+    font-size:32px;
 }
 
-header p{
-font-size:18px;
-margin-top:10px;
+.header p{
+    margin:10px 0;
+    font-size:18px;
+    opacity:0.9;
 }
 
+.header strong{
+    font-size:20px;
+}
+
+/* CONTAINER */
 .container{
-max-width:700px;
-margin:auto;
-padding:20px;
+    max-width:900px;
+    margin:auto;
+    padding:20px;
 }
 
+/* FOTO */
 .hero img{
-width:100%;
-border-radius:12px;
-box-shadow:0 5px 15px rgba(0,0,0,0.2);
+    width:100%;
+    border-radius:12px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.2);
 }
 
+/* CARD */
 .card{
-background:white;
-padding:20px;
-margin-top:20px;
-border-radius:12px;
-box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    background:white;
+    margin-top:20px;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
 }
 
-.btn{
-display:block;
-text-align:center;
-background:#25D366;
-color:white;
-padding:16px;
-margin-top:20px;
-border-radius:10px;
-font-size:18px;
-text-decoration:none;
-font-weight:bold;
+.card h2{
+    margin-top:0;
 }
 
-.btn:hover{
-background:#1ebe5d;
+/* LISTA */
+ul{
+    list-style:none;
+    padding:0;
 }
 
-footer{
-text-align:center;
-padding:20px;
-color:#666;
+ul li{
+    padding:10px 0;
+    font-size:18px;
 }
 
-.whatsapp-float{
-position:fixed;
-bottom:20px;
-right:20px;
-background:#25D366;
-color:white;
-padding:16px;
-border-radius:50%;
-font-size:22px;
-text-decoration:none;
-box-shadow:0 4px 10px rgba(0,0,0,0.3);
+/* BOTÃO WHATSAPP */
+.whatsapp{
+    display:block;
+    text-align:center;
+    background:#25d366;
+    color:white;
+    text-decoration:none;
+    padding:16px;
+    border-radius:10px;
+    font-size:20px;
+    margin-top:20px;
+    font-weight:bold;
+}
+
+.whatsapp:hover{
+    background:#1ebe5d;
 }
 
 </style>
+
 </head>
 
 <body>
 
-<header>
-<h1>SOS Reparos</h1>
-<p>Marido de Aluguel em São Paulo</p>
-<p><strong>Ademilton Prates</strong></p>
-</header>
+<div class="header">
+    <h1>SOS Reparos</h1>
+    <p>Marido de Aluguel Profissional em São Paulo</p>
+    <strong>Ademilton Prates</strong>
+</div>
 
 <div class="container">
 
-<div class="hero">
-<img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?q=80&w=1200&auto=format&fit=crop">
+    <div class="hero">
+        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200&auto=format&fit=crop">
+    </div>
+
+    <div class="card">
+        <h2>Serviços</h2>
+
+        <ul>
+            <li>✔ Instalações</li>
+            <li>✔ Reparos elétricos</li>
+            <li>✔ Reparos hidráulicos</li>
+            <li>✔ Montagem de móveis</li>
+            <li>✔ Troca de chuveiro</li>
+            <li>✔ Instalação de luminárias</li>
+        </ul>
+
+        <a class="whatsapp" href="https://wa.me/5511999999999">
+            Chamar no WhatsApp
+        </a>
+
+    </div>
+
 </div>
-
-<div class="card">
-<h3>Serviços</h3>
-<p>✔️ Instalações</p>
-<p>✔️ Reparos elétricos</p>
-<p>✔️ Reparos hidráulicos</p>
-<p>✔️ Montagem de móveis</p>
-<p>✔️ Pequenos consertos em geral</p>
-
-<a class="btn" href="https://wa.me/5511979777238">
-Chamar no WhatsApp
-</a>
-
-</div>
-
-</div>
-
-<footer>
-São Paulo - SP<br>
-Telefone: (11) 97977-7238
-</footer>
-
-<a class="whatsapp-float" href="https://wa.me/5511979777238">
-💬
-</a>
 
 </body>
 </html>
