@@ -4,101 +4,272 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>SOS Reparos | Ademilton Prates</title>
-<meta name="description" content="SOS Reparos - Serviços profissionais de manutenção, elétrica, hidráulica e montagem residencial. Contato rápido via WhatsApp e telefone.">
+
+<meta name="description" content="SOS Reparos em São Paulo. Profissional Ademilton Prates. Serviços elétricos, hidráulicos e manutenção residencial. Orçamento via WhatsApp.">
+
 <style>
-/* --- RESET --- */
-* { margin:0; padding:0; box-sizing:border-box; }
-body { font-family: 'Arial', sans-serif; background:#f4f6f8; color:#333; line-height:1.6; }
-/* --- HEADER --- */
-header{ background:#0a2540; color:white; text-align:center; padding:50px 20px; }
-header h1{ font-size:36px; margin-bottom:10px; animation:fadeInDown 1s ease;}
-header p{ font-size:18px; color:#d1d1d1; animation:fadeInUp 1s ease; }
 
-/* --- HERO --- */
-.hero{ text-align:center; padding:40px 20px; background:white; animation:fadeIn 1.5s ease;}
-.hero img{ width:100%; max-width:600px; border-radius:12px; box-shadow:0 5px 20px rgba(0,0,0,0.2); }
-.btn{ display:inline-block; margin-top:20px; padding:15px 30px; background:#25D366; color:white; text-decoration:none; border-radius:8px; font-size:18px; font-weight:bold; transition:0.3s;}
-.btn:hover{ background:#1ebe57; transform:scale(1.05);}
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
 
-/* --- SERVICES --- */
-.services{ padding:50px 20px; text-align:center; }
-.services h2{ font-size:32px; margin-bottom:40px; color:#0a2540; }
-.service-box{ background:white; margin:15px auto; padding:25px; max-width:500px; border-radius:12px; box-shadow:0 5px 20px rgba(0,0,0,0.1); font-size:18px; display:flex; align-items:center; gap:15px; transition:0.3s; }
-.service-box:hover{ transform:translateY(-5px); box-shadow:0 10px 25px rgba(0,0,0,0.15);}
-.service-box span{ font-size:24px;}
+body{
+font-family:Arial, sans-serif;
+background:#f4f6f8;
+color:#333;
+}
 
-/* --- CLIENTS --- */
-.clients{ background:#e8eef4; padding:50px 20px; text-align:center; }
-.clients h2{ font-size:30px; margin-bottom:40px; color:#0a2540; }
-.client-box{ background:white; margin:15px auto; padding:25px; max-width:500px; border-radius:12px; box-shadow:0 5px 15px rgba(0,0,0,0.1); font-style:italic; transition:0.3s; }
-.client-box:hover{ transform:scale(1.02); }
+/* MENU */
 
-/* --- CONTACT BUTTONS --- */
-.contact-buttons{ display:flex; justify-content:center; flex-wrap:wrap; gap:15px; margin-top:30px; padding-bottom:30px; }
-.contact-buttons a{ flex:1 1 200px; text-align:center; padding:15px; border-radius:8px; text-decoration:none; color:white; font-weight:bold; font-size:16px; transition:0.3s;}
-.contact-phone{background:#007bff;} .contact-phone:hover{background:#0064cc;}
-.contact-whatsapp{background:#25D366;} .contact-whatsapp:hover{background:#1ebe57;}
-.contact-email{background:#f58020;} .contact-email:hover{background:#d96b00;}
+nav{
+background:#0a2540;
+color:white;
+padding:15px;
+text-align:center;
+font-weight:bold;
+font-size:18px;
+position:sticky;
+top:0;
+}
 
-/* --- FOOTER --- */
-footer{ background:#0a2540; color:white; text-align:center; padding:30px 20px; }
-footer p{ margin:5px 0; }
+header{
+background:#0a2540;
+color:white;
+text-align:center;
+padding:60px 20px;
+}
 
-/* --- FLOATING WHATSAPP --- */
-.whatsapp{ position:fixed; bottom:20px; right:20px; background:#25D366; color:white; padding:18px; border-radius:50%; font-size:28px; text-decoration:none; box-shadow:0 0 15px rgba(0,0,0,0.3); transition:0.3s;}
-.whatsapp:hover{ background:#1ebe57; transform:scale(1.1); }
+header h1{
+font-size:40px;
+}
 
-/* --- ANIMATIONS --- */
-@keyframes fadeInDown{ 0%{opacity:0; transform:translateY(-50px);} 100%{opacity:1; transform:translateY(0);} }
-@keyframes fadeInUp{ 0%{opacity:0; transform:translateY(50px);} 100%{opacity:1; transform:translateY(0);} }
-@keyframes fadeIn{ 0%{opacity:0;} 100%{opacity:1;} }
+header p{
+font-size:20px;
+margin-top:10px;
+color:#ccc;
+}
 
-/* --- RESPONSIVE --- */
-@media(max-width:600px){ .service-box, .client-box{ max-width:90%; } }
+/* HERO */
+
+.hero{
+background:white;
+padding:40px 20px;
+text-align:center;
+}
+
+.hero img{
+width:100%;
+max-width:500px;
+border-radius:12px;
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+.btn{
+display:inline-block;
+margin-top:20px;
+padding:15px 35px;
+background:#25D366;
+color:white;
+text-decoration:none;
+font-size:20px;
+border-radius:10px;
+font-weight:bold;
+transition:0.3s;
+}
+
+.btn:hover{
+background:#1ebe57;
+transform:scale(1.05);
+}
+
+/* SOBRE */
+
+.about{
+padding:40px 20px;
+text-align:center;
+}
+
+.about h2{
+font-size:30px;
+color:#0a2540;
+margin-bottom:15px;
+}
+
+/* SERVIÇOS */
+
+.services{
+padding:40px 20px;
+background:#e9eef3;
+text-align:center;
+}
+
+.services h2{
+font-size:30px;
+margin-bottom:20px;
+color:#0a2540;
+}
+
+.service{
+background:white;
+margin:10px auto;
+padding:20px;
+max-width:400px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+font-size:18px;
+transition:0.3s;
+}
+
+.service:hover{
+transform:translateY(-5px);
+}
+
+/* VANTAGENS */
+
+.benefits{
+padding:40px 20px;
+text-align:center;
+}
+
+.benefits h2{
+margin-bottom:20px;
+color:#0a2540;
+}
+
+.benefit{
+margin:10px;
+font-size:18px;
+}
+
+/* CONTATO */
+
+.contact{
+text-align:center;
+padding:40px 20px;
+}
+
+.contact a{
+display:inline-block;
+margin:10px;
+padding:15px 25px;
+background:#25D366;
+color:white;
+text-decoration:none;
+border-radius:8px;
+font-size:18px;
+}
+
+/* FOOTER */
+
+footer{
+background:#0a2540;
+color:white;
+text-align:center;
+padding:25px;
+}
+
+/* WHATSAPP FLUTUANTE */
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:18px;
+border-radius:50%;
+font-size:28px;
+text-decoration:none;
+box-shadow:0 0 15px rgba(0,0,0,0.3);
+}
+
 </style>
 </head>
+
 <body>
+
+<nav>
+SOS Reparos | São Paulo - SP
+</nav>
 
 <header>
 <h1>SOS Reparos</h1>
-<p>Ademilton Prates | Profissional de Reparos e Serviços Residenciais</p>
+<p>Ademilton Prates - Profissional de Reparos Residenciais</p>
 </header>
 
 <section class="hero">
-<img src="A_website_for_&quot;SOS_Reparos&quot;_features_Ademilton_Pra.png" alt="Profissional homem trabalhando">
+
+<img src="A_website_for_&quot;SOS_Reparos&quot;_features_Ademilton_Pra.png" alt="Profissional trabalhando">
+
 <br>
-<a class="btn" href="https://wa.me/5511999999999" target="_blank">Solicitar Orçamento no WhatsApp</a>
+
+<a class="btn" href="https://wa.me/5511979777238" target="_blank">
+Solicitar Orçamento no WhatsApp
+</a>
+
+</section>
+
+<section class="about">
+
+<h2>Sobre</h2>
+
+<p>
+Sou Ademilton Prates, profissional especializado em serviços residenciais em São Paulo.  
+Ofereço atendimento rápido, serviço de qualidade e confiança.
+</p>
+
 </section>
 
 <section class="services">
-<h2>Nossos Serviços</h2>
-<div class="service-box"><span>🔧</span> Reparos em Geral</div>
-<div class="service-box"><span>💡</span> Instalações Elétricas</div>
-<div class="service-box"><span>🚿</span> Hidráulica e Encanamento</div>
-<div class="service-box"><span>🪛</span> Montagem e Manutenção</div>
-<div class="service-box"><span>🏠</span> Serviços Residenciais</div>
-<div class="service-box"><span>🎨</span> Pintura e Acabamento</div>
+
+<h2>Serviços</h2>
+
+<div class="service">🔧 Reparos em geral</div>
+<div class="service">💡 Instalações elétricas</div>
+<div class="service">🚿 Serviços hidráulicos</div>
+<div class="service">🪛 Montagem de móveis</div>
+<div class="service">🏠 Manutenção residencial</div>
+
 </section>
 
-<section class="clients">
-<h2>Clientes Satisfeitos</h2>
-<div class="client-box">"Excelente serviço! Atendimento rápido e profissional." – João S.</div>
-<div class="client-box">"Recomendo demais, trabalho impecável." – Maria C.</div>
-<div class="client-box">"Profissional confiável e preço justo." – Pedro L.</div>
+<section class="benefits">
+
+<h2>Por que escolher SOS Reparos?</h2>
+
+<div class="benefit">✔ Atendimento rápido</div>
+<div class="benefit">✔ Profissional experiente</div>
+<div class="benefit">✔ Preço justo</div>
+<div class="benefit">✔ Atendimento em São Paulo</div>
+
 </section>
 
-<section class="contact-buttons">
-<a class="contact-phone" href="tel:+5511999999999">📞 Ligar Agora</a>
-<a class="contact-whatsapp" href="https://wa.me/5511999999999" target="_blank">💬 WhatsApp</a>
-<a class="contact-email" href="mailto:contato@sosreparos.com">✉️ Enviar E-mail</a>
+<section class="contact">
+
+<h2>Contato</h2>
+
+<a href="https://wa.me/5511979777238">
+WhatsApp
+</a>
+
+<a href="tel:11979777238">
+Ligar Agora
+</a>
+
 </section>
 
 <footer>
-<p>© 2026 SOS Reparos - Ademilton Prates</p>
-<p>Atendimento rápido e profissional</p>
+
+SOS Reparos © 2026  
+Ademilton Prates  
+São Paulo - SP  
+
 </footer>
 
-<a class="whatsapp" href="https://wa.me/5511999999999" target="_blank">💬</a>
+<a class="whatsapp" href="https://wa.me/5511979777238">
+💬
+</a>
 
 </body>
 </html>
